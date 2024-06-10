@@ -1,7 +1,7 @@
 _id: fld_fffe58f085b44cc9a61493040fd4d624
 type: RequestGroup
 parentId: wrk_bc058a4fd2cd43bca6930401dc2e3cdc
-modified: 1717947882813
+modified: 1718045263086
 created: 1717947882813
 name: Auth
 description: ""
@@ -10,5 +10,10 @@ environmentPropertyOrder: null
 metaSortKey: -1717947882813
 preRequestScript: ""
 afterResponseScript: ""
-authentication: {}
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: username
+  password: "{% faker 'randomPassword' %}"
 headers: []

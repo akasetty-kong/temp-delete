@@ -1,0 +1,26 @@
+_id: req_228905441abb4c3ea8754054c4e98a40
+type: Request
+parentId: fld_fffe58f085b44cc9a61493040fd4d624
+modified: 1718045334206
+created: 1718045268118
+url: https://httpbin.org/anything
+name: Get Request with Auth From Parent
+description: ""
+method: GET
+body: {}
+preRequestScript: ""
+afterResponseScript: ""
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/9.3.0-beta.2
+authentication: {}
+metaSortKey: -1718045268118
+isPrivate: false
+pathParameters: []
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
